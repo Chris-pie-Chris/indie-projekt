@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .main-header {
+    
+} */
+
+div {
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+    background-color:#B64E0F;
+    font-family: 'Comic Neue', cursive;
+    width: 7em;
+}
+
+
+
+.top-buttons {
+    display: flex;
+    /* justify-content: end; */
+    width: 13em;
+    height: 3em;
+    gap: 1em;
+    text-align: center;
+    line-height: 2.2em;
+}
+
+/* .middle {
+    display: flex;
+    justify-content: end;
+    height: 10em;
+    gap: 1.5em;
+    margin-right: 5em;
+    line-height: 2.2em;
+} */
+
