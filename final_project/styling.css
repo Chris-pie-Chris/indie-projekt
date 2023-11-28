@@ -7,32 +7,89 @@
     
 } */
 
-div {
-    border: 0.1em solid #FDED74;
-    border-radius: 0.3em;
-    background-color:#B64E0F;
-    font-family: 'Comic Neue', cursive;
-    width: 7em;
+.main-header {
 }
-
-
 
 .top-buttons {
     display: flex;
-    /* justify-content: end; */
-    width: 13em;
+    justify-content: end;
+    border-radius: 0.3em;
+    /* width: 15em;
+    height: 3em; */
+    margin: 0.5em;
+    gap: 1em;
+    line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.logind {
+    background-color:#B64E0F;
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+    width: 5em;
     height: 3em;
     gap: 1em;
     text-align: center;
     line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
 }
 
-/* .middle {
+.signup {
+    background-color:#B64E0F;
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+    width: 7em;
+    height: 3em;
+    gap: 1em;
+    text-align: center;
+    line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.middle {
     display: flex;
     justify-content: end;
-    height: 10em;
+    /* height: 10em; */
     gap: 1.5em;
     margin-right: 5em;
     line-height: 2.2em;
-} */
+}
 
+.end-buttons {
+    display: flex;
+    justify-content: start;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 3em;
+    margin-left: 1em;
+    gap: 1em;
+    line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.planer {
+    background-color:#B64E0F;
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+    width: 5em;
+    gap: 1em;
+    text-align: center;
+    line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.tilbehør {
+    background-color:#B64E0F;
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+    width: 5em;
+    gap: 1em;
+    text-align: center;
+    line-height: 2.2em;
+    font-family: 'Comic Neue', cursive;
+}
+
+a {
+    text-decoration: none;
+}
