@@ -7,7 +7,11 @@
     
 } */
 
-.main-header {
+/* .main-header {
+} */
+
+p, h1, h3 {
+    font-family: 'Comic Neue', cursive;
 }
 
 .top-buttons {
@@ -19,7 +23,6 @@
     margin: 0.5em;
     gap: 1em;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
 }
 
 .logind {
@@ -27,11 +30,10 @@
     border: 0.1em solid #FDED74;
     border-radius: 0.3em;
     width: 5em;
-    height: 3em;
+    height: 2.3em;
     gap: 1em;
     text-align: center;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
     text-decoration: none;
 }
 
@@ -40,35 +42,33 @@
     border: 0.1em solid #FDED74;
     border-radius: 0.3em;
     width: 7em;
-    height: 3em;
+    height: 2.3em;
     gap: 1em;
     text-align: center;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
 }
 
-.middle {
+/* .middle {
     display: flex;
     justify-content: end;
-    /* height: 10em; */
+    height: 10em;
     gap: 1.5em;
     margin-right: 5em;
     line-height: 2.2em;
-}
+} */
 
 .end-buttons {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     border-radius: 0.3em;
     width: 15em;
     height: 3em;
     margin-left: 1em;
     gap: 1em;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
 }
 
-.planer {
+.planer-header {
     background-color:#B64E0F;
     border: 0.1em solid #FDED74;
     border-radius: 0.3em;
@@ -76,7 +76,6 @@
     gap: 1em;
     text-align: center;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
 }
 
 .tilbehør {
@@ -87,9 +86,44 @@
     gap: 1em;
     text-align: center;
     line-height: 2.2em;
-    font-family: 'Comic Neue', cursive;
+}
+
+.søgefelt {
+    display: flex;
+    
 }
 
 a {
+    color: #D1B585;
     text-decoration: none;
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+}
+
+main div {
+    border-radius: 1em;
+    width: 20em;
+    height: 20em;
+    background-color: #FCE640;
+    text-align: center;
+    align-content: space-between;
+}
+
+body {
+    background-image: linear-gradient(#644D26, #D1B585);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    background-image: linear-gradient(#FEFAD7, #D1B585);
+    
 }
