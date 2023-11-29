@@ -5,9 +5,12 @@
 
 
 
-/* :root {
-    --buttons: #FEFAD7;
-} */
+:root {
+    --button-colors: #FEFAD7;
+    --border-buttons: 0.1em solid #FDED74;
+    --backgroundcolor-buttons: #B64E0F;
+
+}
 
 /* .main-header {
     
@@ -35,13 +38,13 @@ p, h1, h3 {
     border-radius: 2em;
     width: 2em;
     height: 2em;
-    
+
 }
 
 .logind {
-    background-color:#B64E0F;
-    border: 0.1em solid #FDED74;
-    border-radius: 0.3em;
+    background-color: var(--backgroundcolor-buttons);
+    border: var(--border-buttons) ;
+    border-radius: 1.3em;
     width: 5em;
     height: 2.3em;
     gap: 1em;
@@ -53,7 +56,7 @@ p, h1, h3 {
 .signup {
     background-color:#B64E0F;
     border: 0.1em solid #FDED74;
-    border-radius: 0.3em;
+    border-radius: 1.3em;
     width: 7em;
     height: 2.3em;
     gap: 1em;
@@ -84,7 +87,7 @@ p, h1, h3 {
 .planer-header {
     background-color:#B64E0F;
     border: 0.1em solid #FDED74;
-    border-radius: 0.3em;
+    border-radius: 1.3em;
     width: 5em;
     gap: 1em;
     text-align: center;
@@ -94,7 +97,7 @@ p, h1, h3 {
 .tilbehør {
     background-color:#B64E0F;
     border: 0.1em solid #FDED74;
-    border-radius: 0.3em;
+    border-radius: 1.3em;
     width: 5em;
     gap: 1em;
     text-align: center;
@@ -102,18 +105,20 @@ p, h1, h3 {
 }
 
 .søgefelt {
-    /* display: flex; */
     background-color:#B64E0F;
-    width: 14em;
+    width: 20em;
+    height: 2.3em;
     border: 0.1em solid #FDED74;
     border-radius: 0.3em;
+}
 
-
+.søgefelt input[type=text] {
+    align-items: center;
 }
 
 a {
-    color: #D1B585;
     text-decoration: none;
+    color: var(--button-colors);
 }
 
 main {
