@@ -3,12 +3,16 @@
     padding: 0;
 }
 
+
+
+/* :root {
+    --buttons: #FEFAD7;
+} */
+
 /* .main-header {
     
 } */
 
-/* .main-header {
-} */
 
 p, h1, h3 {
     font-family: 'Comic Neue', cursive;
@@ -23,6 +27,15 @@ p, h1, h3 {
     margin: 0.5em;
     gap: 1em;
     line-height: 2.2em;
+}
+
+.kurv {
+    background-color:#B64E0F;
+    border: 0.1em solid #FDED74;
+    border-radius: 2em;
+    width: 2em;
+    height: 2em;
+    
 }
 
 .logind {
@@ -48,16 +61,16 @@ p, h1, h3 {
     line-height: 2.2em;
 }
 
-/* .middle {
+.middle {
     display: flex;
-    justify-content: end;
-    height: 10em;
+    justify-content: center;
+    height: 2.3em;
     gap: 1.5em;
     margin-right: 5em;
     line-height: 2.2em;
-} */
+}
 
-.end-buttons {
+/* .end-buttons {
     display: flex;
     justify-content: center;
     border-radius: 0.3em;
@@ -66,7 +79,7 @@ p, h1, h3 {
     margin-left: 1em;
     gap: 1em;
     line-height: 2.2em;
-}
+} */
 
 .planer-header {
     background-color:#B64E0F;
@@ -89,8 +102,13 @@ p, h1, h3 {
 }
 
 .søgefelt {
-    display: flex;
-    
+    /* display: flex; */
+    background-color:#B64E0F;
+    width: 14em;
+    border: 0.1em solid #FDED74;
+    border-radius: 0.3em;
+
+
 }
 
 a {
@@ -123,7 +141,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto;
+    /* margin: auto; */
     background-image: linear-gradient(#FEFAD7, #D1B585);
     
 }
