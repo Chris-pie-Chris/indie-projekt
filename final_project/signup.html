@@ -38,31 +38,67 @@
     <main>
         <form action="afslut.html">
             <fieldset>
-                <h1>Opret en konto</h1>
+                <h1 class="signuptoday">Opret en konto</h1>
+                <h3 class="signuptoday">-helt gratis idag!</h3>
+
+                
                 <label>
                     <span>Fornavn:</span>
-                    <input type="text" class=>
+                    <input type="text" name="fornavn" id="fornavn">
                 </label>
+
                 <label>
                     <span>Efternavn:</span>
-                    <input type="text">
+                    <input type="text" name="efternavn" id="efternavn">
                 </label>
+
                 <label>
-                   <span>Adresse:</span>
-                    <input type="text">
+                    <span>Adresse:</span>
+                    <input type="text" name="adresse" id="adresse">
                 </label>
+
                 <label>
-                   <span>Postnummer</span>
-                    <input type="text">
+                    <span>Postnummer:</span>
+                    <input type="" name="postnummer" id="postnummer">
                 </label>
+
                 <label>
-                    <span>Email:</span>
-                    <input type="text" class="bestillingsoplysning">
+                    <span>By:</span>
+                    <input type="text" name="by" id="by">
                 </label>
-                <label for="kommentar">Kommentar:</label>
-                <textarea id="kommentar"></textarea>
-                <input type="submit" id="indsend" value="Opret konto nu!">
-                </fieldset>
+
+                <label>
+                    <span>E-mail:</span>
+                    <input type="email" name="email" id="email">
+                </label>
+
+                <label>
+                    <span>Telefonnr.::</span>
+                    <input type="tel" name="telefonnr" id="telefonnr">
+                </label>
+                
+                <svg height="80" width="450">
+                    <g fill="none">
+                        <path stroke="black" d="M5 40 l215 0" />
+                    </g>
+                </svg>
+
+                <label>
+                    <span>Brugernavn:</span>
+                    <input type="text" name="brugernavn" id="brugernavn">
+                </label>
+
+                <label>
+                    <span>Kode:</span>
+                    <input type="password" name="password" id="password">
+                </label>
+
+                <label>
+                    <span>Tilmeld nyhedsbrev:</span>
+                    <input type="checkbox">
+                </label>
+
+            </fieldset>
         </form>
     </main>
 </body>
