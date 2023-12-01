@@ -188,3 +188,7 @@ span {
     font-family: var(--button-font);
 }
 
+.planpage table, th, td {
+    border: 0.1em solid #000000;
+    border-radius: 0.1em;
+}
