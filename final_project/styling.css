@@ -18,7 +18,7 @@
 } */
 
 
-p, h1, h3 {
+p, h1, h3, b {
     font-family: var(--button-font);
 }
 a {
@@ -120,10 +120,16 @@ a {
     text-align: center;
 }
 
-.søgefelt input[type=text] {
-    background-color: var(--button-colors);
+.søgefelt button {
+    width: 4.5em;
+    height: 1.7em;
+    font-family: var(--button-font);
 }
 
+.søgefelt input[type=text] {
+    background-color: var(--button-colors);
+    font-family: var(--button-font);
+}
 
 main {
     height: 75vh;
@@ -172,7 +178,20 @@ fieldset {
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
+    border: solid 0.1em #000000;
     border-radius: 0.5em;
+    background-color: var(--backgroundcolor-buttons);
+    box-shadow: -3px 5px 5px black;
+
+}
+
+fieldset label input {
+    background-color: var(--button-colors);
+}
+fieldset h1 {
+    flex-direction: column;
+
+    align-items: end;
 }
 
 .signuptoday {
@@ -187,10 +206,22 @@ span {
     justify-content: center;
     font-family: var(--button-font);
 }
-.planpage table, th, td, button {
+.planpage table, th, td {
     border: 0.1em solid #000000;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
     font-family: var(--button-font);
+}
+
+.planpage table button {
+    border: 0.1em solid #000000;
+    width: 7em;
+    height: 2em;
+    border-radius: 0.2em;
+    font-family: var(--button-font);
+}
+
+.planpage table button:hover {
+    cursor: pointer;
 }
 
 .planpage table {
@@ -205,4 +236,4 @@ span {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
-} 
+}
