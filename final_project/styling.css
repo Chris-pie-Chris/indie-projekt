@@ -187,9 +187,22 @@ span {
     justify-content: center;
     font-family: var(--button-font);
 }
-
-.planpage table, th, td {
+.planpage table, th, td, button {
     border: 0.1em solid #000000;
-    border-radius: 0.1em;
+    border-radius: 0.7em;
     font-family: var(--button-font);
 }
+
+.planpage table {
+    background-color: #FDED74;
+    width: 55%;
+    border-spacing: 0.8em;
+}
+
+.planpage th, td {
+    background-color: var(--backgroundcolor-buttons);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+} 
