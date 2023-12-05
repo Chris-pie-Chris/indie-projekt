@@ -132,7 +132,7 @@ a {
 }
 
 main {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,6 +173,9 @@ footer {
     background-image: linear-gradient(#FEFAD7, #D1B585);
 }
 
+
+/* Opret ny konto side */
+
 form {
     font-family: var(--button-font);
     width: 70em;
@@ -195,13 +198,14 @@ fieldset {
     padding: 1em;
 }
 
-/* fieldset label {
-    align-items: ;
-} */
+fieldset label {
+    align-items: center;
+}
 
 fieldset label input {
     background-color: var(--button-colors);
-    align-items: center;
+    text-align: center;
+    margin-left: 30px;
 
 }
 
@@ -213,10 +217,14 @@ fieldset label input {
 
 span {
     display: inline-block;
-    width:5em;
-    /* justify-content: center; */
+    width:9em;
+    justify-content: center;
     font-family: var(--button-font);
 }
+
+
+
+/* Plan side */
 .planpage table, th, td {
     border: 0.1em solid #000000;
     border-radius: 0.5em;
@@ -238,7 +246,7 @@ span {
 .planpage table {
     background-color: #FDED74;
     width: 55%;
-    border-spacing: 0.8em;
+    border-spacing: 0.3em;
 }
 
 .planpage th, td {
