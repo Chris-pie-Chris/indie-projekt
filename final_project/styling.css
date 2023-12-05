@@ -132,7 +132,7 @@ a {
 }
 
 main {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +206,7 @@ fieldset label input {
     background-color: var(--button-colors);
     text-align: center;
     margin-left: 30px;
+    
 
 }
 
@@ -217,8 +218,12 @@ fieldset label input {
 
 span {
     display: inline-block;
-    width:9em;
+    width:10em;
     justify-content: center;
+    font-family: var(--button-font);
+}
+
+.success {
     font-family: var(--button-font);
 }
 
@@ -255,4 +260,10 @@ span {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 40px;
+}
+
+/* Log ind side */
+
+.signin {
+    line-height: 2em;
 }
