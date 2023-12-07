@@ -204,10 +204,8 @@ fieldset label {
 
 fieldset label input {
     background-color: var(--button-colors);
-    text-align: center;
+    /* text-align: center; */
     margin-left: 30px;
-    
-
 }
 
 .signuptoday {
