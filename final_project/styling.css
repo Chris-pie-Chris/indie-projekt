@@ -37,6 +37,14 @@ a {
     /* line-height: 2.2em; */
 }
 
+.rat-plan-logo {
+    display: inline-block;
+    position: sticky;
+    top: 0em;
+    left: -30em;
+    transform: rotate(15deg);
+}
+
 .kurv {
     background-color: var(--backgroundcolor-buttons);
     border: var(--border-buttons);
