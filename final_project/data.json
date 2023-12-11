@@ -2,12 +2,12 @@
     {
         "name": "Bur",
         "price": 349,
-        "imgpath": "./rottebur_1"
+        "imgpath": "./rottebur_1.webp"
     },
     {
         "name": "Hængekøje",
         "price": 79,
-        "imgpath": "./"
+        "imgpath": "./hængekøje_1.jpg"
     },
     {
         "name": "Kugle (legetøj)",
@@ -17,11 +17,11 @@
     {
         "name": "Træhus",
         "price": 179,
-        "imgpath": "./træhus_1"
+        "imgpath": "./træhus_1.jpg"
     },
     {
         "name": "Træhus med 3 etager",
         "price": 179,
-        "imgpath": "./træhus_1"
+        "imgpath": "./træhus_2.webp"
     }
 ]

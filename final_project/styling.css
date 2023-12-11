@@ -11,7 +11,10 @@
     --backgroundcolor-buttons: #B64E0F;
     --border-radius-buttons: 1.3em;
     --button-font: 'Comic Neue', cursive;
+    --position-sticky: absolute; 
 }
+
+
 
 /* .main-header {
     
@@ -21,6 +24,7 @@
 p, h1, h3, b {
     font-family: var(--button-font);
 }
+
 a {
     text-decoration: none;
     color: var(--button-colors);
@@ -38,11 +42,10 @@ a {
 }
 
 .rat-plan-logo {
-    display: inline-block;
-    position: sticky;
+    position: var(--position-sticky);
     top: 0em;
-    left: -30em;
-    transform: rotate(15deg);
+    left: -1em;
+    transform: rotate(10deg);
 }
 
 .kurv {
@@ -272,4 +275,8 @@ span {
 
 .signin {
     line-height: 2em;
+}
+
+.signedin {
+    font-family: var(--button-font);
 }
