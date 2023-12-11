@@ -11,7 +11,7 @@ function renderProdukt(data) {
       <div class="produkt">
         <p>${data.name}</p>
         <p>${data.price}</p>
-        <img src="${data.imgpath}" alt="${data.name}">
+        <a href="produkt.html?id=${index}"><img src="${data.imgpath}" alt="${data.name}"></a>
       </div>
     `;
     document.querySelector("#produkter").appendChild(article);
