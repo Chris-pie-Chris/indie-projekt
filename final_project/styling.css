@@ -150,7 +150,7 @@ main {
     gap: 20em;
 }
 
-main div {
+main .planer-box, .tilbehør-box {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
@@ -280,3 +280,20 @@ span {
 .signedin {
     font-family: var(--button-font);
 }
+
+/* Produktside */
+
+#produkter {
+    display: flex; /* Anvend Flexbox */
+    flex-wrap: wrap; /* Tillad produkter at wrappe til næste række */
+    text-align: center;
+  }
+  
+  #produkter img {
+    border-radius: 1em;
+    width: 200px; /* Specifik bredde for billederne */
+    height: 200px; /* Specifik højde for billederne */
+    margin: 10px; /* Afstand omkring hvert produkt */
+    border: 1px solid #ccc; /* Juster dette efter behov for at adskille produkterne */
+    box-sizing: border-box; /* Inkluder padding og border i bredden */
+  }
