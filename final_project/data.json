@@ -26,8 +26,14 @@
     },
     {
         "name": "Toilet (findes i flere forskellige farver)",
-        "price": "179 kr",
+        "price": "49 kr",
         "imgpath": "./toilet_1.webp"
+    },
+    {
+        "name": "Rangle med klokke",
+        "price": "30 kr",
+        "imgpath": "./legetøj_2.webp"
     }
+    
     
 ]

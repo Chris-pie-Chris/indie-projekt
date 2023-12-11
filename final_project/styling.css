@@ -287,10 +287,11 @@ span {
     display: flex; /* Anvend Flexbox */
     flex-wrap: wrap; /* Tillad produkter at wrappe til næste række */
     text-align: center;
+    justify-content: center;
   }
   
   #produkter img {
-    border-radius: 1em;
+    border-radius: 2em;
     width: 200px; /* Specifik bredde for billederne */
     height: 200px; /* Specifik højde for billederne */
     margin: 10px; /* Afstand omkring hvert produkt */
