@@ -22,9 +22,9 @@ success = true;
   
   arryData.forEach(validate);
 
-  // if (success === true) {
-  //   signupForm.submit();
-  // }
+  if (success === true) {
+    signupForm.submit();
+  }
 }
 
 function validate(field) {
