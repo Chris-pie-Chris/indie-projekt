@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rat Plan</title>
-        <script defer src="script.js"></script>
+        <script src="signup_complete.js" defer type="module"></script>
         <link rel="stylesheet" href="styling.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
         <!-- <header class="end-buttons">
         </header> -->
     <main>
-        <form action="afslut.html">
+        <form class="signup-form" >
             <fieldset>
                 <h1 class="signuptoday">Opret en konto</h1>
                 <h3 class="signuptoday">-helt gratis idag!</h3>
@@ -48,21 +48,22 @@
                 <label>
                     <span>Fornavn:</span>
                     <input type="text" name="fornavn" id="fornavn">
+                    <!-- <p class="warning-text">Udfyld dette</p> -->
                 </label>
 
                 <label>
                     <span>Efternavn:</span>
-                    <input type="text" name="efternavn" id="efternavn">
+                    <input type="text" name="efternavn" id="efternavn" minlength="2">
                 </label>
 
                 <label>
                     <span>Adresse:</span>
-                    <input type="text" name="adresse" id="adresse">
+                    <input type="text" name="adresse" id="adresse" >
                 </label>
 
                 <label>
                     <span>Postnummer:</span>
-                    <input type="" name="postnummer" id="postnummer">
+                    <input type="text" name="postnummer" id="postnummer" maxlength="4">
                 </label>
 
                 <label>
@@ -76,13 +77,13 @@
                 </label>
 
                 <label>
-                    <span>Telefonnr.::</span>
+                    <span>Telefonnr.:</span>
                     <input type="tel" name="telefonnr" id="telefonnr">
                 </label>
                 
                 <svg height="80" width="450">
                     <g fill="none">
-                        <path stroke="black" d="M5 40 l215 0" />
+                        <path stroke="black" d="M5 40 l215 0"/>
                     </g>
                 </svg>
 

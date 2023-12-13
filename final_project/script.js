@@ -4,7 +4,7 @@ import produkter from './data.json' assert {type: "json"};
 // Loop gennem produkterne og opret HTML-elementer
 produkter.forEach(renderProdukt);
 
-function renderProdukt(data) {
+function renderProdukt(data, index) {
     let article = document.createElement("article");
     article.className = "produkter";
     article.innerHTML = `
