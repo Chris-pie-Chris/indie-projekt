@@ -31,7 +31,7 @@ function submitHandler(event) {
 function validate(field) {
     console.log(field)
     if (field.nodeName === "BUTTON" || field.nodeName === "H1" || field.nodeName === "H3" || field.nodeName === "B") return
-    let input = field.children[1]
+    let input = field.children[1].children[1]
     input.nextElementSibling.textContent = ""
 
     if (input.type === "text") {
