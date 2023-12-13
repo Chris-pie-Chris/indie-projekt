@@ -8,14 +8,13 @@
         // }
         
 let success;
-const signupForm = document.querySelector(".signup-form")
-        
+const signupForm = document.querySelector("input")
 
 signupForm.addEventListener("submit", submitHandler);
 
 function submitHandler(event) {
-  event.preventDefault();
-  success = true;
+event.preventDefault();
+success = true;
 
 //   event.target.forEach(validate)
     console.log(event.target.children[0].children);
@@ -31,7 +30,7 @@ function submitHandler(event) {
 function validate(field) {
     console.log(field)
     if (field.nodeName === "BUTTON" || field.nodeName === "H1" || field.nodeName === "H3" || field.nodeName === "B") return
-    let input = field.children[1].children[1]
+    let input = field.children[1]
     input.nextElementSibling.textContent = ""
 
     if (input.type === "text") {
